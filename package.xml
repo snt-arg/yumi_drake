@@ -1,0 +1,7 @@
+<package format="2">
+<name>yumi_drake</name>
+<version>0.0.0</version>
+<description> yumi description for drake library </description>
+<maintainer email="abrk1996@gmail.com">Drake Users</maintainer>
+<license>Various</license>
+</package>
