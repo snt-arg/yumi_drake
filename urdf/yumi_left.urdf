@@ -379,6 +379,12 @@
       <material name="Blue"/>
     </collision>
   </link>
+  <joint name="gripper_l_tip_fixed" type="fixed">
+    <parent link="gripper_l_base"/>
+    <child link="gripper_l_tip"/>
+    <origin rpy="0 0 3.14159265359" xyz="0 0 0.13"/>
+  </joint>
+  <link name="gripper_l_tip"/>
   <!-- body -->
   <gazebo reference="gripper_l_base">
     <material>Gazebo/Light_Grey</material>
